@@ -56,11 +56,11 @@
                             checkUrl="'${rootURL}/plugin/thinBackup/checkExcludedFilesRegex?value='+escape(this.value)"/>
                     </f:entry>
                     
-                    <f:optionalBlock title="Wait until Jenkins/Hudson is idle to perform a backup"
+                    <f:optionalBlock title="Wait until Hudson is idle to perform a backup"
                         help="/plugin/thinBackup/help/help-waitForIdle.html"
                         checked="${it.configuration.waitForIdle}"
                         name="waitForIdle" checkUrl="'${rootURL}/plugin/thinBackup/checkWaitForIdle?value='+escape(this.value)">
-                        <f:entry title="Force Jenkins to quiet mode after specified minutes" field="forceQuietModeTimeout"
+                        <f:entry title="Force Hudson to quiet mode after specified minutes" field="forceQuietModeTimeout"
 	                        help="/plugin/thinBackup/help/help-forceQuietModeTimeout.html">
 	                        <f:textbox value="${it.configuration.forceQuietModeTimeout}" name="forceQuietModeTimeout"
 	                            checkUrl="'${rootURL}/plugin/thinBackup/checkForceQuietModeTimeout?value='+escape(this.value)"/>

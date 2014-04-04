@@ -31,9 +31,8 @@ import java.net.URL;
 import java.util.HashSet;
 import java.util.Set;
 import java.util.concurrent.Future;
-
-import org.springframework.security.Authentication;
-import org.springframework.security.context.SecurityContextHolder;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.context.SecurityContextHolder;
 
 public class PluginRestoreUpdateCenter extends UpdateCenter {
   public class PluginRestoreJob extends DownloadJob {

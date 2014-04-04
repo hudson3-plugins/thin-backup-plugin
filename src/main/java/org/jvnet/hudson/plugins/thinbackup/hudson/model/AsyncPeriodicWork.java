@@ -9,8 +9,7 @@ import hudson.util.StreamTaskListener;
 import java.io.File;
 import java.io.IOException;
 import java.util.logging.Level;
-
-import org.springframework.security.context.SecurityContextHolder;
+import org.springframework.security.core.context.SecurityContextHolder;
 
 /**
  * Duplicated code from <i>hudson.model.AsyncPeriodicWork<i> to reduce the log levels in {@link #doRun()} from INFO to
